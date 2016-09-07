@@ -24,7 +24,7 @@
 > php -S localhost:8000 -t backend/web
 
 
-##Configuracion del archivo web/index.php, la cual inicia el framework
+##Configuracion del archivo web/index.php, el cual inicia el framework
 
 **Inluye el framework**
 
@@ -68,6 +68,7 @@
 ##Definiendo un Controller
 
 > Los controllers deben tener como minimo el namespace \app\controllers; y el use \yii\web\Controller;
+
 > La llamada al controlador mediante la url es: http://host/controller/action
 
 ```php
