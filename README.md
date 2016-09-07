@@ -1,4 +1,4 @@
-# documentacionYii
+# Documentacion de Yii2
 
 
 ##Configuraciones del template basic
