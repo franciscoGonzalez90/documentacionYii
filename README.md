@@ -39,16 +39,17 @@
 > (new yii\web\Application($config))->run();
 
 
-##Configuracion del archivo config/web(basic App) y backend(frontend)/config/main(advanced App)
+##Configuracion del archivo config/web(basic App) y (backend o frontend)/config/main(advanced App)
 
 ```php
     <?php
     return [
-    'id' => 'crmapp',
-    'basePath' => realpath(__DIR__ . '/../'),
-    'components' => [
-    'request' => [
-    'cookieValidationKey' => 'your secret key here',
-    ],
-    ],];
+        'id' => 'crmapp',
+        'basePath' => realpath(__DIR__ . '/../'),
+        'components' => [
+        'request' => [
+        'cookieValidationKey' => 'your secret key here',
+        ],
+        ],
+    ];
 ```
