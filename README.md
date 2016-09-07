@@ -41,6 +41,12 @@
 
 ##Configuracion del archivo config/web(basic App) y (backend o frontend)/config/main(advanced App)
 
+> Id: Es el nombre de la aplicacion.
+
+> basePath: Permite encontrar el directorio en donde se encuentra yii alojado.
+
+> cookieValidationKey: Es la clave privada para validar a los usuarios que utilizan el recordarme en la app.
+
 ```php
     <?php
     return [
@@ -53,3 +59,21 @@
         ],
     ];
 ```
+
+##Definiendo un Controller
+
+> Los controllers deben tener como minimo el namespace \app\controllers; y el use \yii\web\Controller;
+
+```php
+    <?php
+    namespace app\controllers;
+    use \yii\web\Controller;
+    class SiteController extends Controller
+    {
+        public function actionIndex()
+        {
+        return 'Our CRM';
+        }
+    }
+```
+
