@@ -65,9 +65,10 @@
 > Los controllers deben tener como minimo el namespace \app\controllers; y el use \yii\web\Controller;
 
 ```php
-    <?php
-    namespace app\controllers;
+    <?php namespace app\controllers;
+    
     use \yii\web\Controller;
+    
     class SiteController extends Controller
     {
         public function actionIndex()
