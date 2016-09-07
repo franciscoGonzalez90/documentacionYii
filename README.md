@@ -60,9 +60,15 @@
     ];
 ```
 
+##Activar el UrlManager para las urls limpias
+
+> Debemos ir a la carpeta config\web y busca la linea donde sale comentado el UrlManager y descomentarla para poder empezar a utilizar la funcionalidad
+
+
 ##Definiendo un Controller
 
 > Los controllers deben tener como minimo el namespace \app\controllers; y el use \yii\web\Controller;
+> La llamada al controlador mediante la url es: http://host/controller/action
 
 ```php
     <?php namespace app\controllers;
@@ -77,4 +83,6 @@
         }
     }
 ```
+
+
 
