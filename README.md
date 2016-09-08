@@ -7,6 +7,50 @@
 
 > php -S localhost:8000 -t carpetadelproyecto
 
+
+##descripcion de las carpetas en el template basic
+
+**assets**
+
+> Incluye los archivos .js y .css referenciados en la pagina web y que dependen de la app
+
+**commands**
+
+> Esto incluye los controladores usados en la linea de comandos
+
+**config**
+
+> Esto incluye los controladores usados en la pagina web
+
+**mail**
+
+> Es el repositorio de las plantillas de los correos
+
+**models**
+
+> Esto incluye los modelos usados en toda la app
+
+**runtime**
+
+> Estos es usado desde yii2 para almacenar en tiempo de ejecucion los datos como logs
+
+**test**
+
+> Esto es un repositorio de todos los test(Unitarios, funcionales, entre otros)
+
+**vendor**
+
+> Esto incluye el repositorio de modulos externos, administrador por Composer
+
+**views**
+
+> Esto contiene las vistas que son renderizadas por los controladores
+
+**web**
+
+> Es el punto de entrada para la pagina web
+
+
 ##Configuraciones del template advanced
 
 **Configuracion de inicio**
