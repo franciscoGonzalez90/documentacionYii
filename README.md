@@ -8,7 +8,7 @@
 > php -S localhost:8000 -t carpetadelproyecto
 
 
-##descripcion de las carpetas en el template basic
+##Descripcion de las carpetas en el template basic
 
 **assets**
 
